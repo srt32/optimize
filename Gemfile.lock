@@ -85,6 +85,7 @@ GEM
     method_source (0.8.1)
     mime-types (1.22)
     multi_json (1.7.2)
+    newrelic_rpm (3.7.0.177)
     nokogiri (1.5.9)
     polyglot (0.3.3)
     pry (0.9.12)
@@ -175,6 +176,7 @@ DEPENDENCIES
   guard-rspec
   jquery-rails
   launchy
+  newrelic_rpm
   rails (~> 3.2.13)
   rspec-rails
   sass-rails

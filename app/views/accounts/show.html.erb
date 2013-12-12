@@ -1,8 +1,8 @@
-<h1><%= current_author.name %></h1>
+<h1><%= @author.name %></h1>
 
 <h2>Your articles</h2>
 <ul>
-<% current_author.articles.each do |article| %>
+<% @author.articles.each do |article| %>
   <li>
     <h3><%= article.title %></h3>
     <h4><%= article.comments.count %> Comments:</h4>
